@@ -70,12 +70,35 @@ nav ul li a {
 }
 
 /* footer */
-
-
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    color: lightblue;
+}
+.footer-items {
+    display: flex;
+    align-self: center;
+}
+#phone i {
+    margin-right: 10px;
+}
+#email i{
+    margin-right: 10px;
+}
+.btn  {
+    margin: 10px;
+    background: #007bb5;
+    align-items: center;
+    color: lightblue;
+    width: 20%;
+    align-self: center;
+}
   .fa {
   padding: 10px;
   font-size: 10px;
-  /* width: 10px; */
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
