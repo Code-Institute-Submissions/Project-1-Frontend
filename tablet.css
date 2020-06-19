@@ -6,5 +6,12 @@
      #label p {
     margin: 10px;
     }
-
+    #skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    #skills p {
+        margin: 10px;
+    }
 }
