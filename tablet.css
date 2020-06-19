@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {
+    #label {
+    flex-direction: row;
+    justify-content: center;
+    }
+     #label p {
+    margin: 10px;
+    }
+
+}

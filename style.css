@@ -33,6 +33,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+#elevator {
+    background-color: yellow;
+    color: lightblue;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
 nav{
     border: 0;
     padding: 20px;
@@ -45,6 +53,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin-bottom: 0px;
+    line-height: 200%;
 }
 nav ul li a {
     color: lightblue;
