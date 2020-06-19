@@ -1,3 +1,4 @@
+/* Index*/
 body{
     background-color: lightblue;
 }
@@ -110,4 +111,27 @@ footer {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+}
+/* End of index */
+
+/* About me */
+#h-navbar {
+    background: yellow;
+    padding: 15px;
+}
+#h-navbar a {
+    color: lightblue;
+}
+h2, h4 {
+    background: yellow;
+    color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin 10px;
+}
+#attributes{
+    color: yellow;
+    margin: 0;
+    padding: 10px;
+    display: flex;
 }
