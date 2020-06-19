@@ -45,13 +45,13 @@ body{
 }
 
 /* start of nav */
-#navbar {
+#v-navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav{
+#v-navbar nav{
     border: 0;
     padding: 20px;
     margin-top: 20px;
@@ -59,13 +59,13 @@ nav{
     width: auto;
     border-radius: 10%;
 }
-nav ul {
+#v-navbar nav ul {
     list-style-type: none;
     padding: 0;
     margin-bottom: 0px;
     line-height: 200%;
 }
-nav ul li a {
+#v-navbar nav ul li a {
     color: lightblue;
 }
 
@@ -78,15 +78,18 @@ footer {
     flex-direction: column;
     color: lightblue;
 }
+    /* makes the phone email and linked in center */
 .footer-items {
     display: flex;
     align-self: center;
 }
 #phone i {
     margin-right: 10px;
+    line-height: 20px;
 }
 #email i{
     margin-right: 10px;
+    line-height: 25px;
 }
 .btn  {
     margin: 10px;
