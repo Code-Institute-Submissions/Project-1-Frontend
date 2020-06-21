@@ -137,7 +137,20 @@ h2, h4 {
 }
 #attributes {
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
     flex-direction: column;
     text-align: center;
+}
+/* 20rem for each div so that they can share screen space */
+#holland {
+    background: red;
+    padding: 10px;
+    width: 20rem;
+    margin: 5px;
+}
+#myers {
+    background: black;
+    padding: 10px;
+    width: 20rem;
+    margin: 5px;
 }

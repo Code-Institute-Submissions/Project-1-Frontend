@@ -29,4 +29,10 @@
         display: flex;
         flex-direction: row;
     }
+    #holland {
+    
+    }
+    #myers {
+        background: black;
+    }
 }
