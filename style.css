@@ -123,15 +123,21 @@ footer {
     color: lightblue;
 }
 h2, h4 {
-    background: yellow;
-    color: lightblue;
+    color: yellow;
     text-align: center;
     padding: 10px;
-    margin 10px;
+    margin-top: 10px;
 }
-#attributes{
+#main {
     color: yellow;
     margin: 0;
     padding: 10px;
     display: flex;
+    justify-content: center;
+}
+#attributes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }

@@ -23,4 +23,10 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    /* About me */
+    #attributes {
+        display: flex;
+        flex-direction: row;
+    }
 }
