@@ -26,7 +26,10 @@
 
     /* About me */
     #attributes {
-        display: flex;
         flex-direction: row;
     }
+    #interest {
+    flex-direction: row;
+    }
+
 }

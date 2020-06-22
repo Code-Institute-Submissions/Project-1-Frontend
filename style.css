@@ -159,16 +159,30 @@ h2, h4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0;
 }
 #outdoors {
     background:red;
     padding: 10px;
-    /* width: 20rem;
-    margin: 5px; */
+    width: 20rem;
+    margin: 5px;
 }
 #running {
     background: black;
     padding: 10px;
-    /* width: 20rem;
-    margin: 5px; */
+    width: 20rem;
+    margin: 5px;
+
+}
+/* Adjust the contents inside the card */
+card {
+    display: flex;
+    justify-content: center;
+}
+figure {
+    align-self: center;
+}
+#interest img {
+    height: 350px;
+    width: 275px;
 }
