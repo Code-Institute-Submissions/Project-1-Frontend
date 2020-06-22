@@ -213,14 +213,21 @@ figure {
     background: rgb(255, 255, 255, 0.5);
     color: black;
 }
-/* work experience */
+/* main body */
 #work-ex {
+    flex-direction: column;
+}
+#logo {
     display: flex;
     justify-content: center;
-
 }
 #logo img {
     height: auto;
     width: 500px;
     padding: 10px;
+}
+#description {
+    display: block;
+    margin: 20px;
+    color: yellow;
 }
