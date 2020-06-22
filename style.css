@@ -189,9 +189,10 @@ figure {
 /* End of About me */
 
 /* Work Experience */
+/* carousel section */
 .carousel-image {
-    height: 65vh;
-    min-height: 350px;
+    height: 60vh;
+    max-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,4 +207,20 @@ figure {
 }
 #carousel-image4 { 
     background-image: url(image/work.jpg);
+}
+.carousel-caption {
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.5);
+    color: black;
+}
+/* work experience */
+#work-ex {
+    display: flex;
+    justify-content: center;
+
+}
+#logo img {
+    height: auto;
+    width: 500px;
+    padding: 10px;
 }
