@@ -189,3 +189,21 @@ figure {
 /* End of About me */
 
 /* Work Experience */
+.carousel-image {
+    height: 65vh;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carousel-image1 { 
+    background-image: url(image/semisub.jpg);
+}
+#carousel-image2 { 
+    background-image: url(image/drillfloor1.jpg);
+}
+#carousel-image3 { 
+    background-image: url(image/drillfloor2.jpg);
+}
+#carousel-image4 { 
+    background-image: url(image/work.jpg);
+}
