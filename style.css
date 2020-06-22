@@ -134,6 +134,7 @@ h2, h4 {
     padding: 10px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 #attributes {
     display: flex;
@@ -153,4 +154,21 @@ h2, h4 {
     padding: 10px;
     width: 20rem;
     margin: 5px;
+}
+#interest {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#outdoors {
+    background:red;
+    padding: 10px;
+    /* width: 20rem;
+    margin: 5px; */
+}
+#running {
+    background: black;
+    padding: 10px;
+    /* width: 20rem;
+    margin: 5px; */
 }
