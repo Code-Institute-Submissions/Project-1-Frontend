@@ -190,11 +190,15 @@ figure {
 
 /* Work Experience */
 /* carousel section */
+
 .carousel-image {
-    height: 60vh;
-    max-height: 500px;
+    height: 80vh;
+    min-height: 500px;
+    /* height: 800px;
+    width: 1500px; */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #carousel-image1 { 
     background-image: url(image/semisub.jpg);
@@ -212,6 +216,8 @@ figure {
     padding: 10px;
     background: rgb(255, 255, 255, 0.5);
     color: black;
+    width: 30%;
+    /* text-align: center; */
 }
 /* main body */
 #work-ex {

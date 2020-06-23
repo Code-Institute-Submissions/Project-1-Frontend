@@ -32,4 +32,13 @@
     flex-direction: row;
     }
 
+    /* Work experience */
+    /* carousel secton */
+    .carousel-image {
+        height: 90vh;
+    }
+    #description {
+        margin: 50px;
+    }
+    
 }
