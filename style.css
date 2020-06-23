@@ -237,3 +237,21 @@ figure {
     margin: 20px;
     color: yellow;
 }
+/* End of work-experience */
+
+/* self-development */
+#trent {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#trent-logo {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+#trent-des {
+    padding: 10px;
+}
+
+
