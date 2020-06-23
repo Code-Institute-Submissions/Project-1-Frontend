@@ -46,8 +46,12 @@
     /* end of work experience page */
 
     /* self development page */
-    #trent {
+    .self-dev {
         flex-direction: row;
+        margin: 50px;
+    }
+    .des {
+    padding: 0;
     }
 
 }

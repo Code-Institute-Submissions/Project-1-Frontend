@@ -236,22 +236,25 @@ figure {
     display: block;
     margin: 20px;
     color: yellow;
+    padding: 10px;
 }
 /* End of work-experience */
 
 /* self-development */
-#trent {
+.self-dev {
     margin: 20px;
     display: flex;
     flex-direction: column;
 }
-#trent-logo {
+.dev-logo {
     width: 300px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 30px;
 }
-#trent-des {
+.des {
     padding: 10px;
 }
-
+#race-logo {
+    background: black;
+}
 
