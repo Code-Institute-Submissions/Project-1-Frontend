@@ -41,9 +41,10 @@
     /* about me page*/
     #attributes {
         flex-direction: row;
+        justify-content: center;
     }
     #interest {
-    flex-direction: row;
+        flex-direction: row;
     }
     /* end of about me page */
 
