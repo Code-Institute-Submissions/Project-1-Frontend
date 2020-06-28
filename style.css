@@ -66,6 +66,9 @@ body{
     margin-top: 10px;
     text-align: center;
 }
+#skills i {
+    margin-right: 5px;
+}
 
 /* start of nav */
 #v-navbar {
@@ -291,4 +294,11 @@ figure {
     height: 200px;
 }
 /* end of self development */
+
+/* education */
+video {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
 
