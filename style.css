@@ -1,6 +1,6 @@
 /* Index*/
 body{
-    background-color: lightblue;
+    background-color: #778899;
 }
 /* .container-fluid {
     border: 0;
@@ -35,27 +35,32 @@ body{
 
 /* title and intro */
 #title {
-    background-color: yellow;
+    background-color: #778899;
     text-align: center;
-    color: lightblue;
+    color: white;
     display: flex;
     flex-direction: column;
     margin-top: -10%;
     border-radius: 10px;
     width: 50%;
     align-self: center;
+    font-family: 'Merriweather', serif;
 }
 #label {
     display: flex;
 }
 #elevator {
-    background-color: yellow;
-    color: lightblue;
+    background-color: #778899;
+    color: white;
     height: 50%;
     padding: 10px;
     border-radius: 20px;
     margin-top: 10px;
     max-width: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+#elevator h3 {
+    font-family: 'Merriweather', serif;
 }
 #skills {
     margin-top: 10px;
@@ -73,7 +78,7 @@ body{
     border: 0;
     padding: 20px;
     margin-top: 20px;
-    background-color: yellow;
+    background-color: #A9A9A9;
     width: auto;
     border-radius: 10%;
 }
@@ -81,20 +86,23 @@ body{
     list-style-type: none;
     padding: 0;
     margin-bottom: 0px;
-    line-height: 200%;
+    line-height: 300%;
 }
 #v-navbar nav ul li a {
-    color: lightblue;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 /* footer */
 footer {
     margin-top: 20px;
     padding: 20px;
-    background: yellow;
+    background: #A9A9A9;
     display: flex;
     flex-direction: column;
-    color: lightblue;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
     /* makes the phone email and linked in center */
 .footer-items {
@@ -111,11 +119,12 @@ footer {
 }
 .btn  {
     margin: 10px;
-    background: #007bb5;
+    background: #778899;
     align-items: center;
-    color: lightblue;
+    color: white;
     width: 20%;
     align-self: center;
+    font-family: 'Open Sans', sans-serif;
 }
   .fa {
   padding: 10px;
@@ -133,20 +142,22 @@ footer {
 
 /* About me */
 #h-navbar {
-    background: yellow;
+    background: #A9A9A9;
     padding: 15px;
 }
 #h-navbar a {
-    color: lightblue;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 h2, h4 {
-    color: yellow;
+    color: white;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
+    font-family: 'Merriweather', serif;
 }
 #main {
-    color: yellow;
+    color: white;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -161,13 +172,13 @@ h2, h4 {
 }
 /* 20rem for each div so that they can share screen space */
 #holland {
-    background: red;
+    background: #A9A9A9;
     padding: 10px;
     width: 20rem;
     margin: 5px;
 }
 #myers {
-    background: black;
+    background: #A9A9A9;
     padding: 10px;
     width: 20rem;
     margin: 5px;
@@ -179,13 +190,13 @@ h2, h4 {
     padding: 0;
 }
 #outdoors {
-    background:red;
+    background:#A9A9A9;
     padding: 10px;
     width: 20rem;
     margin: 5px;
 }
 #running {
-    background: black;
+    background: #A9A9A9;
     padding: 10px;
     width: 20rem;
     margin: 5px;
@@ -251,9 +262,10 @@ figure {
 }
 #description {
     display: block;
-    color: yellow;
+    color: white;
     padding: 20px;
     margin: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 /* End of work-experience */
 
@@ -270,6 +282,8 @@ figure {
 }
 .des {
     padding: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 #race-logo {
     background: black;
