@@ -20,21 +20,33 @@ body{
     justify-content: center;
     max-width: 500px;
 }
+#photo {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  color: #778899;
+  padding: 10px;
+}
+#photo img {
+  background: #A9A9A9;
+}
+
 /* potrait */
-#potrait {
+/* #potrait {
     display: flex;
-    justify-content: center;
+    justify-content: center; */
     /* align-items: center;
     margin: 10px;
     padding: 10px; */
-}
-#potrait img {
+/* } */
+/* #potrait img {
     background-image: cover;
     height: 50vh;
-}
+} */
 
 /* title and intro */
-#title {
+/* #title {
     background-color: #778899;
     text-align: center;
     color: white;
@@ -45,7 +57,7 @@ body{
     width: 50%;
     align-self: center;
     font-family: 'Merriweather', serif;
-}
+} */
 #label {
     display: flex;
 }
@@ -53,6 +65,7 @@ body{
     background-color: #778899;
     color: white;
     height: 50%;
+    width: auto;
     padding: 10px;
     border-radius: 20px;
     margin-top: 10px;
