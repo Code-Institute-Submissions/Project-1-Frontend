@@ -234,36 +234,15 @@ figure {
 /* End of About me */
 
 /* Work Experience */
-/* carousel section */
+#picture {
+    display: flex;
+    justify-content: center;
+}
 
-.carousel-image {
-    height: 80vh;
-    min-height: 500px;
-    /* height: 800px;
-    width: 1500px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.collage img {
+    width: 350px;
 }
-#carousel-image1 { 
-    background-image: url(image/semisub.jpg);
-}
-#carousel-image2 { 
-    background-image: url(image/drillfloor1.jpg);
-}
-#carousel-image3 { 
-    background-image: url(image/drillfloor2.jpg);
-}
-#carousel-image4 { 
-    background-image: url(image/work.jpg);
-}
-.carousel-caption {
-    padding: 10px;
-    background: rgb(255, 255, 255, 0.5);
-    color: black;
-    width: 30%;
-    /* text-align: center; */
-}
+
 /* main body */
 #work-ex {
     flex-direction: column;
@@ -271,10 +250,11 @@ figure {
 #logo {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 #logo img {
-    height: auto;
-    width: 500px;
+   height: auto;
+    width: 45vh;
     padding: 10px;
 }
 #description {

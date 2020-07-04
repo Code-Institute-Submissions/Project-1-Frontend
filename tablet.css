@@ -49,13 +49,17 @@
     /* end of about me page */
 
     /* Work experience page*/
-    /* carousel secton */
-    .carousel-image {
-        height: 90vh;
-    }
-    #description {
+    /* #logo img {
+        height: auto;
+        width: 50vh;
+    } */
+
+
+
+
+    /* #description {
         margin-right: 50px;
-    }
+    } */
     /* end of work experience page */
 
     /* self development page */
