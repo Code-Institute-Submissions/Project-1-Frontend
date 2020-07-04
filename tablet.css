@@ -63,12 +63,20 @@
     /* end of work experience page */
 
     /* self development page */
+
     .self-dev {
         flex-direction: row;
+        justify-content: center;
         margin: 50px;
+    }
+    .dev-inner {
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: row; */
     }
     .des {
     padding: 0;
+    /* display: flex; */
     }
 
 }

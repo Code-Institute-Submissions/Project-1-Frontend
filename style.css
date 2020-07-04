@@ -268,10 +268,17 @@ figure {
 /* End of work-experience */
 
 /* self-development */
+
 .self-dev {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+}
+.dev-inner {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
 }
 .dev-logo {
     width: 300px;
@@ -282,6 +289,8 @@ figure {
     padding: 10px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    /* display: flex;
+    justify-content: center; */
 }
 #race-logo {
     background: black;
