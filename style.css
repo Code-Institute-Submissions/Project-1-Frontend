@@ -116,8 +116,14 @@ footer {
 /* End of index */
 
 /* About me */
+h2 {
+    background: #1B3F8B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
-h2, h4 {
+ h4 {
     /* color: white; */
     color: #1B3F8B;
     text-align: center;
@@ -191,6 +197,7 @@ figure {
 #picture {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .collage img {
