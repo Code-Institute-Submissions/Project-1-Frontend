@@ -287,6 +287,7 @@ figure {
 }
 .des {
     padding: 10px;
+    margin-top: 10px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     /* display: flex;
