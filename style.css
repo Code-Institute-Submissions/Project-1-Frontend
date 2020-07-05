@@ -2,7 +2,18 @@
 body{
     background-color: #778899;
 }
-
+#h-navbar {
+    background: #A9A9A9;
+    padding: 10px;
+}
+.nav-brand, #h-navbar a {
+    font-size: 18px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#h-navbar a:hover {
+  color: #718daa;
+}
 #over {
     margin: 20px;
 }
@@ -11,13 +22,10 @@ body{
     padding: 20px;
 }
 #mid{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
     max-width: 500px;
 }
 #photo {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
   max-width: 400px;
   margin: auto;
   text-align: center;
@@ -28,9 +36,6 @@ body{
   background: #A9A9A9;
 }
 
-#label {
-    display: flex;
-}
 #elevator {
     background-color: #778899;
     color: white;
@@ -53,33 +58,6 @@ body{
 }
 #skills i {
     margin-right: 5px;
-}
-
-/* start of nav */
-#v-navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#v-navbar nav{
-    border: 0;
-    padding: 20px;
-    margin-top: 20px;
-    background-color: #A9A9A9;
-    width: auto;
-    border-radius: 10%;
-}
-#v-navbar nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 0px;
-    line-height: 300%;
-}
-#v-navbar nav ul li a {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
 }
 
 /* footer */
@@ -129,14 +107,7 @@ footer {
 /* End of index */
 
 /* About me */
-#h-navbar {
-    background: #A9A9A9;
-    padding: 15px;
-}
-#h-navbar a {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-}
+
 h2, h4 {
     color: white;
     text-align: center;
@@ -264,6 +235,10 @@ figure {
     font-family: 'Open Sans', sans-serif;
     /* display: flex;
     justify-content: center; */
+}
+.des a {
+    color: white;
+    font-weight: bold;
 }
 #race-logo {
     background: black;
