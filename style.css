@@ -1,14 +1,17 @@
 /* Index*/
 body{
-    background-color: #778899;
+    /* background-color: #778899; */
+    background-color: white;
 }
 #h-navbar {
-    background: #A9A9A9;
+    /* background: #A9A9A9; */
+    background: white;
     padding: 10px;
 }
 .nav-brand, #h-navbar a {
     font-size: 18px;
-    color: white;
+    /* color: white; */
+    color: #1B3F8B;
     font-family: 'Open Sans', sans-serif;
 }
 #h-navbar a:hover {
@@ -29,16 +32,18 @@ body{
   max-width: 400px;
   margin: auto;
   text-align: center;
-  color: #778899;
+  /* color: #778899; */
+  color: #1B3F8B;
   padding: 10px;
+  border-style: 1px black solid;
 }
 #photo img {
   background: #A9A9A9;
 }
 
 #elevator {
-    background-color: #778899;
-    color: white;
+    /* background-color: white; */
+    color: #1B3F8B;
     height: 50%;
     width: auto;
     padding: 10px;
@@ -47,6 +52,7 @@ body{
     max-width: 500px;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    border: none !important;
 }
 #elevator h3 {
     font-size: 2em;
@@ -64,7 +70,8 @@ body{
 footer {
     margin-top: 20px;
     padding: 20px;
-    background: #A9A9A9;
+    /* background: #A9A9A9; */
+    background:#162252;
     display: flex;
     flex-direction: column;
     color: white;
@@ -85,9 +92,11 @@ footer {
 }
 .btn  {
     margin: 10px;
-    background: #778899;
+    /* background: #778899; */
+    background: white;
     align-items: center;
-    color: white;
+    /* color: white; */
+    color: #162252;
     width: 150px;
     align-self: center;
     font-family: 'Open Sans', sans-serif;
@@ -109,14 +118,16 @@ footer {
 /* About me */
 
 h2, h4 {
-    color: white;
+    /* color: white; */
+    color: #1B3F8B;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
     font-family: 'Merriweather', serif;
 }
 #main {
-    color: white;
+    /* color: white; */
+    color: #1B3F8B;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -203,7 +214,8 @@ figure {
 #description {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #1B3F8B;
+    /* color: white; */
     padding: 20px;
     margin: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -231,13 +243,15 @@ figure {
 .des {
     padding: 10px;
     margin-top: 10px;
-    color: white;
+    /* color: white; */
+    color: #1B3F8B;
     font-family: 'Open Sans', sans-serif;
     /* display: flex;
     justify-content: center; */
 }
 .des a {
-    color: white;
+    /* color: white; */
+    color: #1B3F8B;
     font-weight: bold;
 }
 #race-logo {
