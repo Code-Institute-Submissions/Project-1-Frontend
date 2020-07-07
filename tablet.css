@@ -3,7 +3,7 @@
     /* title */
     #top {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     #mid {
          /* width: 50%; */
