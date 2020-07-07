@@ -87,9 +87,14 @@
 
       }
       #elevator {
-      transform: translate(100px, 20px);
+      transform: translate(100px, 5px);
       }
       #elevator h3 {
         font-size: 3em;
+      }
+
+      /* Work Experience */
+      #logo img {
+          width: 60vh;
       }
 }

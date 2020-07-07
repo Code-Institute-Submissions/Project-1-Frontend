@@ -15,7 +15,8 @@ body{
     font-size: 20px;
     /* color: white; */
     color: #1B3F8B;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'PT Serif Caption', serif;
 }
 #h-navbar a:hover {
   color: #718daa;
@@ -31,7 +32,6 @@ body{
     max-width: 500px;
 }
 #photo {
-
   max-width: 400px;
   margin: auto;
   text-align: center;
@@ -39,6 +39,7 @@ body{
   color: #1B3F8B;
   padding: 10px;
   border: 1px black solid;
+  font-family: 'PT Serif Caption', serif;
 }
 #photo img {
   background: #A9A9A9;
@@ -55,11 +56,13 @@ body{
     max-width: 500px;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'PT Serif Caption', serif; */
     border: none !important;
 }
 #elevator h3 {
     font-size: 2em;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'PT Serif Caption', serif;
 }
 #skills {
     margin-top: 10px;
