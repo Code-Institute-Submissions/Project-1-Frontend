@@ -36,7 +36,6 @@ body{
 }
 #photo {
   max-width: 400px;
-  min-width: 240px;
   margin: auto;
   text-align: center;
   /* color: #778899; */
@@ -160,6 +159,10 @@ h2 {
     /* justify-content: space-between; */
     flex-direction: column;
     text-align: center;
+}
+#attributes h5 {
+    text-align: left;
+    margin-bottom: 15px;
 }
 /* 20rem for each div so that they can share screen space */
 #holland {
