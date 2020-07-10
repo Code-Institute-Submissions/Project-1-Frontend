@@ -179,6 +179,12 @@ h2 {
     width: 20rem;
     margin: 5px;
 }
+
+#holland li, #myers li {
+    line-height: 30px;
+    text-align: left;
+    margin-left: 90px;
+}
 #interest {
     display: flex;
     justify-content: center;
@@ -213,7 +219,8 @@ figure {
     width: 275px;
 }
 figcaption {
-    text-align: center;
+    margin-top: 10px;
+    text-align: left;
 }
 /* End of About me */
 
