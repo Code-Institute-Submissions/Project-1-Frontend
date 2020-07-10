@@ -14,6 +14,12 @@
     }
 
         /* Elevator pitch */
+    #elevator {
+        font-size: 1.5em;
+    }
+    #elevator h3 {
+        font-size: 2.5em;
+    }
     #skills {
     display: flex;
     flex-direction: row;
@@ -82,7 +88,7 @@
     }
     #elevator {
         height: 50%;
-        font-size: 1.5em;
+        /* font-size: 1.5em; */
       }
       #elevator {
       transform: translate(100px, -5px);
