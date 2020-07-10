@@ -85,7 +85,7 @@
         font-size: 1.5em;
       }
       #elevator {
-      transform: translate(100px, 5px);
+      transform: translate(100px, -5px);
       }
       #elevator h3 {
         font-size: 3em;

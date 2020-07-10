@@ -4,17 +4,16 @@ body{
     background-color: white;
 }
 #h-navbar {
-    /* background: #A9A9A9; */
-    background: white;
-    padding: 10px;
-    margin: 30px;
-    margin-top: 15px;
+    background: #162252;
+    /* background: white; */
+    /* margin: 30px; */
+    /* margin-top: 15px; */
     margin-bottom: 15px;
 }
 .nav-brand, #h-navbar a {
-    font-size: 20px;
-    /* color: white; */
-    color: #1B3F8B;
+    font-size: 18px;
+    color: white;
+    /* color: #1B3F8B; */
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'PT Serif Caption', serif;
 }
@@ -165,25 +164,25 @@ h2 {
     margin-bottom: 15px;
 }
 /* 20rem for each div so that they can share screen space */
-#holland {
-    /* background: #A9A9A9; */
-    background: #1B3F8B;
+#holland,  #myers, #outdoors, #running  {
+    background: #023e7d;
+    /* background: #1B3F8B; */
     padding: 10px;
     width: 20rem;
     margin: 5px;
 }
-#myers {
-    /* background: #A9A9A9; */
+/* #myers {
+    background: #A9A9A9;
     background: #1B3F8B;
     padding: 10px;
     width: 20rem;
     margin: 5px;
-}
+} */
 
 #holland li, #myers li {
     line-height: 30px;
     text-align: left;
-    margin-left: 90px;
+    margin-left: 85px;
 }
 #interest {
     display: flex;
@@ -191,21 +190,19 @@ h2 {
     flex-direction: column;
     padding: 0;
 }
-#outdoors {
-    /* background:#A9A9A9; */
+/* #outdoors {
     background: #1B3F8B;
     padding: 10px;
     width: 20rem;
     margin: 5px;
 }
 #running {
-    /* background: #A9A9A9; */
     background: #1B3F8B;
     padding: 10px;
     width: 20rem;
     margin: 5px;
 
-}
+} */
 /* Adjust the contents inside the card */
 card {
     display: flex;
