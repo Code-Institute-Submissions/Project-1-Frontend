@@ -265,6 +265,10 @@ figcaption {
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
+    max-width: 1000px;
+}
+#sp-dev-inner {
+    max-width: 830px;
 }
 .dev-logo {
     width: 300px;
@@ -286,6 +290,9 @@ figcaption {
     color: #1B3F8B;
     font-weight: bold;
 }
+/* .dev-logo {
+    border: 1px solid black;
+} */
 #race-logo {
     background: black;
     height: 200px;
