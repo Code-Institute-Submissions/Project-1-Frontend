@@ -272,6 +272,7 @@ figcaption {
     margin-right: 30px;
 }
 .des {
+    max-width: 500px;
     padding: 10px;
     margin-top: 10px;
     /* color: white; */
