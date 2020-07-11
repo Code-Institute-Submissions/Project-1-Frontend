@@ -10,6 +10,9 @@ body{
     /* margin-top: 15px; */
     margin-bottom: 15px;
 }
+#h-navbar img {
+    height: 50px;
+}
 .nav-brand, #h-navbar a {
     font-size: 18px;
     color: white;
