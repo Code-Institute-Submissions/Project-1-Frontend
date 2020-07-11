@@ -3,10 +3,8 @@
     /* title */
     #top {
         display: flex;
-        /* flex-direction: column; */
     }
     #mid {
-         /* width: 50%; */
          align-self: center;
     }
     #elevator {
@@ -46,22 +44,8 @@
     }
     /* end of about me page */
 
-    /* Work experience page*/
-    /* #logo img {
-        height: auto;
-        width: 50vh;
-    } */
-
-
-
-
-    /* #description {
-        margin-right: 50px;
-    } */
-    /* end of work experience page */
 
     /* self development page */
-
     .self-dev {
         flex-direction: row;
         justify-content: center;
@@ -70,11 +54,9 @@
     .dev-inner {
     display: flex;
     justify-content: flex-start;
-    /* flex-direction: row; */
     }
     .des {
     padding: 0;
-    /* display: flex; */
     }
 
 }
@@ -84,11 +66,9 @@
 
     #top {
        flex-direction: row;
-        /* margin: 5px; */
     }
     #elevator {
         height: 50%;
-        /* font-size: 1.5em; */
       }
       #elevator {
       transform: translate(100px, -5px);
