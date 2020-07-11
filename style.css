@@ -71,6 +71,9 @@ body{
     margin-top: 10px;
     text-align: center;
 }
+#skills img {
+    height: 1.5em;
+}
 #skills i {
     margin-right: 5px;
 }
